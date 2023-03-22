@@ -54,7 +54,7 @@ def print_intro():
         if menu_item.lower() == "quit":
             print("Thanks for stopping by")
             break
-
+        menu_item = menu_item.title()
         if menu_item not in menu.keys():
             print("Sorry, we don't sell that here")
 
